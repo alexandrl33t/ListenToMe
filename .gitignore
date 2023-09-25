@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+backend/venv
+*.xml
+# IntellijIdea files
+*.iml
+.idea
+out
