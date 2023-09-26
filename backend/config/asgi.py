@@ -1,5 +1,5 @@
 """
-ASGI config for listen_to_me project.
+ASGI settings for settings project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'listen_to_me.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.local')
 
 application = get_asgi_application()

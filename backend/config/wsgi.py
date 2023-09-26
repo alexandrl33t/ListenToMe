@@ -1,5 +1,5 @@
 """
-WSGI config for listen_to_me project.
+WSGI settings for settings project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'listen_to_me.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.local')
 
 application = get_wsgi_application()
